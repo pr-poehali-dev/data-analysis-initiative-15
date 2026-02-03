@@ -50,7 +50,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <a href="/" className="flex items-center space-x-3">
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Pulse Digital
+                  Домовёнок
                 </span>
               </a>
             </div>
@@ -61,10 +61,10 @@ export default function Navbar() {
                   Услуги
                 </a>
                 <a href="#artists" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-                  Клиенты
+                  Преимущества
                 </a>
                 <a href="#success-stories" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
-                  Кейсы
+                  Цены
                 </a>
                 <a href="#contact" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
                   Контакты
@@ -73,12 +73,14 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
-              <Button variant="ghost" className="text-sm text-gray-300 hover:text-white">
-                Войти
-              </Button>
+              <a href="tel:+79001234567">
+                <Button variant="ghost" className="text-sm text-gray-300 hover:text-white">
+                  +7 (900) 123-45-67
+                </Button>
+              </a>
               <a href="#get-started">
                 <AnimatedButton size="sm" className="bg-white text-black hover:bg-gray-100">
-                  Начать
+                  Заказать
                 </AnimatedButton>
               </a>
             </div>
@@ -99,17 +101,17 @@ export default function Navbar() {
                 Услуги
               </a>
               <a href="#artists" className="block text-gray-300 hover:text-purple-400">
-                Клиенты
+                Преимущества
               </a>
               <a href="#success-stories" className="block text-gray-300 hover:text-green-400">
-                Кейсы
+                Цены
               </a>
               <a href="#contact" className="block text-gray-300 hover:text-orange-400">
                 Контакты
               </a>
               <div className="pt-3 border-t border-gray-700">
                 <a href="#get-started" className="block">
-                  <AnimatedButton className="w-full bg-white text-black hover:bg-gray-100">Начать</AnimatedButton>
+                  <AnimatedButton className="w-full bg-white text-black hover:bg-gray-100">Заказать</AnimatedButton>
                 </a>
               </div>
             </div>

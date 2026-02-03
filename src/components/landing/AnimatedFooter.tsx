@@ -27,9 +27,9 @@ export default function AnimatedFooter() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h3 className="text-3xl sm:text-4xl font-bold text-white mb-4">Будьте в курсе трендов</h3>
+            <h3 className="text-3xl sm:text-4xl font-bold text-white mb-4">Подпишитесь на скидки</h3>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Получайте эксклюзивные инсайты, стратегии развития бренда и советы по росту каждую неделю.
+              Получайте специальные предложения и акции на клининговые услуги для постоянных клиентов.
             </p>
           </motion.div>
 
@@ -79,12 +79,12 @@ export default function AnimatedFooter() {
           >
             <div className="group flex justify-center lg:justify-start">
               <span className="text-3xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent transition-transform duration-300 group-hover:scale-105">
-                Pulse Digital
+                Домовёнок
               </span>
             </div>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
-              Помогаем творческим профессионалам и предпринимателям создавать сильные бренды,
-              обеспечивающие реальный рост на конкурентном рынке.
+              Профессиональные клининговые услуги для квартир, домов и офисов. Мы заботимся о чистоте,
+              чтобы вы могли наслаждаться комфортом.
             </p>
 
             {/* Social Links */}
@@ -124,12 +124,12 @@ export default function AnimatedFooter() {
               <h4 className="text-lg font-semibold text-white mb-6">Услуги</h4>
               <ul className="space-y-4">
                 {[
-                  "Разработка бренда",
-                  "Цифровой маркетинг",
-                  "Создание контента",
-                  "SEO и аналитика",
-                  "Ведение соцсетей",
-                  "Performance-маркетинг",
+                  "Поддерживающая уборка",
+                  "Генеральная уборка",
+                  "Уборка после ремонта",
+                  "Химчистка мебели",
+                  "Мытьё окон",
+                  "Уборка офисов",
                 ].map((link, index) => (
                   <motion.li
                     key={link}
@@ -161,11 +161,11 @@ export default function AnimatedFooter() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 text-gray-400 justify-center sm:justify-start">
                   <Mail className="h-5 w-5 text-blue-500" />
-                  <span>hello@pulsedigital.ru</span>
+                  <span>info@domovenok.ru</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-400 justify-center sm:justify-start">
                   <Phone className="h-5 w-5 text-blue-500" />
-                  <span>+7 (495) 123-45-67</span>
+                  <span>+7 (900) 123-45-67</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-400 justify-center sm:justify-start">
                   <MapPin className="h-5 w-5 text-blue-500" />
@@ -176,7 +176,7 @@ export default function AnimatedFooter() {
               <div className="mt-8">
                 <a href="#get-started">
                   <AnimatedButton className="w-full bg-white text-black hover:bg-gray-100">
-                    Начать проект
+                    Заказать уборку
                   </AnimatedButton>
                 </a>
               </div>
@@ -194,7 +194,7 @@ export default function AnimatedFooter() {
         >
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 text-center sm:text-left">
             <p className="text-gray-500 text-sm">
-              {new Date().getFullYear()} Pulse Digital. Все права защищены.
+              {new Date().getFullYear()} Домовёнок. Все права защищены.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-500 hover:text-white transition-colors">
